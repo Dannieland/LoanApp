@@ -1,0 +1,24 @@
+
+@import "./theme";
+
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.blue {
+	background-color: #969FAA;
+	height: 100%;
+}
+.light-blue {
+	background-color: #39861B;
+}
+.yellow {
+	color: #030700;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

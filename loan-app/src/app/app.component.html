@@ -1,0 +1,22 @@
+<!--
+Danielle Taplin
+app.component.html
+12/7/2023
+ -->
+ <mat-toolbar class="toolbar" color="accent">
+	<mat-toolbar-row>
+			<h1>Loan App</h1>
+		<div style="width: 80%">
+			<!-- Main Navigation -->
+			<div fxLayout="row wrap" fxLayoutAlign="end start">
+				<button class="button" mat-button routerLink="/">Home</button>
+				<button class="button" mat-button routerLink="/contact">
+					Contact Us
+				</button>
+				<button class="button" mat-button routerLink="/about">About Us</button>
+			</div>
+		</div>
+	</mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
